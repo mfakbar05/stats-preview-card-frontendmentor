@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(233, 47%, 7%) !important;
+}
+
+h1, h2, .stats p {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+#heading {
+    color: hsl(277, 64%, 61%);
+}
+
+.card {
+    margin: 10% auto auto auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 69.375rem;
+    max-height: 27.875rem;
+    background-color:hsl(244, 38%, 16%);
+    border-radius: 5px;
+}
+
+.illustration img {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.card-main {
+    max-width: 60%;
+    padding: 2rem 8rem 0 4rem;
+}
+
+.card-main p {
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.stats h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.stats p {
+    margin-top: 0;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+}
+
+.stats-number {
+    margin-right: 4rem;
+}
+
+.far-right {
+    margin-right: 0;
+}
+
+footer {
+    margin-top: 2.5rem;
+}
+.attribution { font-size: 11px; text-align: center; color: white;}
+    .attribution a { color: hsl(228, 45%, 44%); }
